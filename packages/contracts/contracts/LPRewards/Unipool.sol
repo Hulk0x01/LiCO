@@ -102,7 +102,7 @@ contract Unipool is LPTokenWrapper, Ownable, CheckContract, IUnipool {
         onlyOwner
     {
         checkContract(_lqtyTokenAddress);
-        checkContract(_uniTokenAddress);
+//        checkContract(_uniTokenAddress);
 
         uniToken = IERC20(_uniTokenAddress);
         lqtyToken = ILQTYToken(_lqtyTokenAddress);

@@ -1,0 +1,19 @@
+networks:
+  testnet:
+    rpc: "https://rpc.test.btcs.network"
+  mainnet:
+    rpc: "https://rpc.coredao.org"
+
+contracts:
+  testnet:
+    trove-manager: "0x30D4a1F64caB4998CbF9a59e4456698BE91893aa"
+    sorted-troves: "0x93886221A12273D27a448b2eCe3a4A5687eb596c"
+    price-feed: "0xDad34A0CB584c9919900a930793F2613B4D42A37"
+    liqBot: "0x3f721c34eaB99Da3c59B0044a810BC4c5E40159d"
+    hint-helps: "0xc848d975324AB046c029c2777535D005b8DCea38"
+    cusd: "0x977FBCFe4C831AA5F2888776d72E1B9CaC5EA4Aa"
+    lockup-contract-factory: "0x00F81d175C105DD59d82DDe735585B08510C8E20"
+  mainnet:
+    trove-manager: "0x417D2D36a264914152daCD3Fc48234468Bbcc45A"
+    sorted-troves: "0x9D52F7E4514D05EF42762c92d232e1eB3Dfce212"
+    price-feed: "0x2017d4eB4Db118b35B12423bb8dfeC8a5466c766"

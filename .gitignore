@@ -1,26 +1,50 @@
-# Editor temp files
-*~
+# Buidler contract JSONs
+artifacts
 
-# macOS Finder attribute files
-.DS_Store
+# Truffle contract JSONs
+/build/contracts
 
-node_modules
+# Contract artifacts
+contracts/artifacts
 
-# output of TypeScript transpilation
-/packages/*/dist
+/bin
 
-# api-extractor temp files
-/packages/*/temp
+# Buidler compilation cache
+/cache
 
-/temp
+# Ethereum accounts for testing
+/accountsList.js 
+
+# Exported function gas costs and test outputs
+/gasTest/outputs
+
+/secrets.js
 .env
-.eslintcache
 
-# Don't track NPM lockfile (we use Yarn)
-package-lock.json
+.vscode
+.idea
 
-# Don't track hardhat mainnet fork cache
-cache
+yarn-error.log
 
-# ngrok config is individual to each dev
-ngrok.config.yml
+# solidity-coverage
+/.coverage_artifacts
+/.coverage_cache
+/.coverage_contracts
+/coverage.json
+/coverage
+
+# eth-mutants
+/.eth-mutants
+/mutantOutput
+
+# echidna
+/crytic-export
+
+# brownie
+__pycache__
+.pytest_cache
+.history
+.hypothesis/
+build/
+reports/
+tests/simulation.csv
